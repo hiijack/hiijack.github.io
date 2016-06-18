@@ -63,19 +63,83 @@ h1{
 p{
 	text-indent: 2em;
 	font-size: 2em;
-	text-align: left;
+	text-align: justify;
 }
 .sign{
 	text-align: right;
 }
 .intro p{
-	width: 85%;
+	width: 80%;
 	margin: 0 auto;
-	font-size: 1.6em;
+	font-size: 2.7em;
 }
 .intro img{
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 .section{
 	text-align:center;
+}
+.audio_wrp {
+    border: 1px solid #ebebeb;
+    background-color: #fcfcfc;
+    overflow: hidden;
+    padding: 12px 20px 12px 12px;
+}
+.db {
+    display: block;
+}
+.audio_area {
+    display: block;
+    margin: 17px 1px 16px 0;
+    font-size: 0;
+    position: relative;
+    font-weight: 400;
+    text-decoration: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.audio_play_area {
+    float: left;
+    margin: 9px 22px 10px 5px;
+    font-size: 0;
+    width: 18px;
+    height: 55px;
+}
+.audio_area .audio_length {
+    float: right;
+    font-size: 14px;
+    margin-top: 23px;
+    margin-left: 1em;
+}
+.tips_global {
+    color: #8c8c8c;
+}
+.audio_info_area {
+    overflow: hidden;
+}
+.audio_area .audio_title {
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: -2px;
+    margin-bottom: -3px;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.audio_play_area .icon_audio_default {
+	margin-top: 10px;
+    background: transparent url(http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png) no-repeat 0 0;
+    width: 18px;
+    height: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    -webkit-background-size: 18px auto;
+    background-size: 18px auto;
+}
+.audio_area .audio_source {
+    display: block;
+    font-size: 20px;
 }
