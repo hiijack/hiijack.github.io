@@ -50,7 +50,6 @@ abbr,acronym { border: 0;
 body{
 	font-family: arial,helvetica;
 	color: #333;
-	color: rgba(0,0,0,0.5);
 }
 .wrap{
 	margin-left: auto;
@@ -62,15 +61,17 @@ h1{
 	font-size: 6em;
 }
 p{
+	text-indent: 2em;
 	font-size: 2em;
+	text-align: left;
 }
 .sign{
 	text-align: right;
 }
 .intro p{
-	width: 70%;
+	width: 85%;
 	margin: 0 auto;
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
 .intro img{
 	margin-bottom: 10px;
