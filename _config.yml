@@ -4,8 +4,7 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
-gems:
-  - jemoji
+gems:             [jemoji]
 
 # Setup
 title:            hiijack
